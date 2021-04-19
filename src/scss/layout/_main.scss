@@ -41,3 +41,15 @@ button {
     transform: scale(1.15);
   }
 }
+
+.btn-thanks {
+  @extend .btn-main;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
