@@ -16,6 +16,28 @@
     </section>
     <div class="popup">
       <!-- Here goes your popup form HTML code -->
+      <h2 class="popup__title">Login</h2>
+      <form action="#" class="form" id="login-form" novalidate>
+        <div class="form__row">
+          <input type="email" name="email" placeholder="E-mail" class="form__input-text">
+          <label for="email"></label>
+        </div>
+        <div class="form__row">
+          <input type="password" name="password" placeholder="Password" class="form__input-text">
+          <label for="password"></label>
+        </div>
+        <div class="form__row">
+          <label for="rules-checkbox" class="form__checkbox-container">
+            I agree to terms & conditions.
+            <input type="checkbox" name="rules-checkbox" id="rules-checkbox" class="form__checkbox">
+            <span class="form__checkmark"></span>
+          </label>
+        </div>
+        <div class="form__row">
+          <button type="submit" class="form__submit-btn">SUBMIT</button>
+        </div>
+      </form>
+      <button class="popup__close-btn">&times;</button>
     </div>
     <script src="js/index.min.js" charset="utf-8"></script>
   </body>

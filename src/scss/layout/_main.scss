@@ -1,12 +1,20 @@
 // Main styles
 $primary-color: #fcaf32;
 $secondary-color: #fc888e;
+$white: #ffff;
+$black: #000000;
 
 html,
 body {
   font-family: 'Lato', sans-serif;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+button {
+  cursor: pointer;
 }
 
 .main {

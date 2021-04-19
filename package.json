@@ -26,6 +26,5 @@
     "gulp-scss-lint": "^1.0.0",
     "gulp-uglify": "^3.0.1",
     "prettier": "^1.16.4"
-  },
-  "dependencies": {}
+  }
 }
